@@ -1,0 +1,151 @@
+header {
+    height: 10%;
+    width: 100%;
+    background-color: #60c6e2;
+    /* color: white; */
+}
+
+h1 {
+    color: white;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+main {
+    /* #clear: both; */
+    float: left;
+    width: 30%;
+    height: 80%;
+    /* background-color: salmon; */
+    margin-left: 2.5%;
+}
+
+
+/* aside {
+    width: 37%;
+    height: 80%;
+} */
+
+#leftsidebar {
+    width: 30%;
+    height: 80%;
+    float: left;
+    margin-left: 2%;
+    /* background-color: aqua; */
+}
+
+#rightsidebar {
+    width: 30%;
+    float: right;
+    margin-right: 3%;
+    /* background-color: chocolate; */
+}
+
+img {
+    width: 100%;
+    height: 50%;
+}
+
+#para {
+    background-color: gainsboro;
+    text-align: center;
+}
+
+#para1 {
+    padding-left: 80px;
+    color: #16C794;
+}
+
+#a {
+    position: relative;
+    word-spacing: 10px;
+}
+
+h2 {
+    color: #13686c;
+}
+
+#p {
+    width: max-content;
+    background-color: #52ade5;
+    margin-left: 1%;
+    color: white;
+}
+
+#p1 {
+    margin-left: 3%;
+}
+
+#h2 {
+    background-color: gainsboro;
+}
+
+#p2 {
+    margin-left: 3%;
+}
+
+#span {
+    float: right;
+}
+
+#div1 {
+    background-color: #16C794;
+    width: 20%;
+    height: 10%;
+}
+
+#img1 {
+    width: 25%;
+    height: 25%;
+    margin-top: 2%;
+}
+
+#img2 {
+    padding-top: 1%;
+    width: 25%;
+    height: 50%;
+    margin-left: +5%;
+    margin-top: -90%;
+}
+
+#img3 {
+    width: 25%;
+    height: 25%;
+    margin-top: 2%;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    /* cursor: pointer; */
+}
